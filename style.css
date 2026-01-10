@@ -1,48 +1,48 @@
 @font-face {
     font-family: 'goldman-regular';
-    src: url('/fonts/goldman/goldman-regular.ttf') format('truetype');
+    src: url('../fonts/goldman/goldman-regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'goldman-bold';
-    src: url('/fonts/goldman/goldman-bold.ttf') format('truetype');
+    src: url('../fonts/goldman/goldman-bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-regular';
-    src: url('/fonts/sansation/sansation-regular.ttf') format('truetype');
+    src: url('../fonts/sansation/sansation-regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-bold';
-    src: url('/fonts/sansation/sansation-bold.ttf') format('truetype');
+    src: url('../fonts/sansation/sansation-bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-italic';
-    src: url('/fonts/sansation/sansation-italic.ttf format') format('truetype');
+    src: url('../fonts/sansation/sansation-italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-bold-italic';
-    src: url('/fonts/sansation/sansation-bold-italic.ttf') format('truetype');
+    src: url('../fonts/sansation/sansation-bold-italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-light';
-    src: url('/fonts/sansation/sansation-light.ttf') format('truetype');
+    src: url('../fonts/sansation/sansation-light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'sansation-light-italic';
-    src: url('/fonts/sansation/sansation-light-italic.ttf') format('truetype');
+    src: url('../fonts/sansation/sansation-light-italic.ttf') format('truetype');
 }
 
 body {
     font-family: 'sansation-regular', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/images/fundo-talos.svg);
+    background-image: url(../images/fundo-talos.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,11 +102,6 @@ body {
     margin-bottom: 20px;
 }
 
-.section {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .module {
     width: 100%;
     max-width: 1000px;
@@ -124,9 +119,10 @@ body {
     height: auto;
     display: block;
     border-radius: 40px;
+    align-items: center;
 }
 
-.member-container {
+.member-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,15 +163,6 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
-.section h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: white;
-    border-bottom: 2px;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
 .subphrase {
     font-size: 16px;
     color: gray;
@@ -190,23 +177,6 @@ h1, h2 {
     margin-top: 40px
 }
 
-.members-list {
-    list-style: none;
-    padding: 0;
-}
-
-.members-list li {
-    margin: 5px 0;
-    font-size: 18px;
-}
-
-.members-list li::before {
-    content: "•";
-    color: #695cc1;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
 .items-module {
     padding: 12px 20px;
     display: flex;
@@ -215,13 +185,6 @@ h1, h2 {
     margin-top: 10px;
     gap: 24px;
     flex-wrap: wrap;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    border-radius: 10px;
 }
 
 .item {
@@ -247,6 +210,12 @@ h1, h2 {
     color: #695cc1;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -256,7 +225,7 @@ html {
     color: white;
     text-align: center;
     padding: 4px 0;
-    position: relative;
+    position: static;
     width: 100%;
     box-sizing: border-box;
     font-size: 12px;
