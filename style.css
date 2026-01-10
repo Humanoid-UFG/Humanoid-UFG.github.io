@@ -43,10 +43,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../images/fundo-talos.svg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #282828;
 }
 
 .navbar {
@@ -185,6 +186,8 @@ h1, h2 {
     margin-top: 10px;
     gap: 24px;
     flex-wrap: wrap;
+    color: white;
+    font-size: 16px;
 }
 
 .item {
