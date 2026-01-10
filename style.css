@@ -175,6 +175,15 @@ h1, h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+a.item {
+    text-decoration: none;
+    color: white;
+}
+
+a.item:hover {
+    text-decoration: underline;
+}
+
 .item:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px #b46fdc;
