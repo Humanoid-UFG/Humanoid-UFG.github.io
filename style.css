@@ -131,8 +131,14 @@ h1, h2 {
 
 .description {
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 40px
+    margin-bottom: 40px;
+    margin-top: 70px
+}
+
+.pharagraph {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .photo {
@@ -273,4 +279,77 @@ html {
     font-weight: bold;
     color: white;
     align-items: flex-start;
+}
+
+.video-container-vertical {
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.video-container-vertical video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    border: 1px solid #695cc1;
+    box-shadow: 0 0 10px #b46fdc;
+}
+
+.video-container-vertical-2 {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.video-container-vertical-2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    border: 1px solid #695cc1;
+    box-shadow: 0 0 10px #b46fdc;
+}
+
+.video-container-horizontal {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.video-container-horizontal video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #695cc1;
+    box-shadow: 0 0 10px #b46fdc;
+}
+
+.pdf-container {
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #695cc1;
+    box-shadow: 0 0 10px #b46fdc;
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
