@@ -39,7 +39,7 @@
 }
 
 body {
-    font-family: 'sansation-regular', sans-serif;
+    font-family: 'sansation-regular';
     margin: 0;
     padding: 0;
     background-image: url(../images/fundo-talos.svg);
@@ -84,7 +84,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    font-family: 'goldman-regular', sans-serif;
+    font-family: 'goldman-regular';
     text-transform: uppercase;
     box-sizing: border-box;
     transition: all 0.4s ease-in-out;
@@ -115,7 +115,7 @@ body {
 
 h1, h2 {
     font-size: 28px;
-    font-family: 'goldman-bold';
+    font-family: 'goldman-regular';
     color: white;
     text-align: center;
     margin-bottom: 40px;
